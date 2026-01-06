@@ -1,68 +1,62 @@
-# 💼 Project 3 – Forensic Analysis of an Intrusion (Digital Forensics Presentation)
+# Forensic Analysis of an Intrusion
 
 ![Project 3 Cover](digital-forensics-project3-cover.png)
 
-**Course:** DFC 620 – Digital Forensics & Cyber Investigation (UMGC)  
-**Author:** Niknaz Sadehvandi  
-**Date:** December 16, 2022  
+## Overview
+Forensic investigation of a simulated system intrusion focused on log analysis, persistence mechanisms, and data exfiltration evidence.  
+The project reconstructs attacker activity and produces analyst-ready findings aligned with DFIR workflows.
 
----
+## Why This Project Matters to SOC Teams
+- Demonstrates post-incident investigation skills
+- Identifies persistence and exfiltration artifacts
+- Supports escalation, containment, and remediation decisions
 
-## 🧩 Overview
-This **PowerPoint presentation** explores a simulated **forensic analysis of a system intrusion**, focusing on identifying key evidence through log analysis, startup folder inspection, and data exfiltration detection.  
-It builds on previous projects by applying real-world digital forensics and incident response (DFIR) techniques to reconstruct an intrusion timeline and recommend remediation actions.
+## Environment
+- OS: Windows
+- Data Sources: IIS logs, startup folder artifacts, scheduled tasks
+- Tools: Autoruns, log analysis utilities, file system inspection
+- Frameworks: DFIR investigation workflow
 
----
+## Data Collected / Artifacts
+- IIS web server logs
+- Startup folder persistence artifacts
+- Scheduled task configurations
+- Exfiltration indicators
+- Indicators of Compromise (IOCs)
 
-## 🧠 Tools & Techniques
-- 🔍 IIS Web Server Log Analysis  
-- 🧩 Autoruns & Startup Folder Inspection  
-- 🗓️ Scheduled Task Review  
-- 💻 Evidence of Data Exfiltration  
-- 🧮 Digital Artifact Correlation & Timeline Building  
+## Analysis Steps
+1. Reviewed IIS logs to identify suspicious access
+2. Inspected startup and autorun locations for persistence
+3. Analyzed scheduled tasks for unauthorized execution
+4. Identified evidence of outbound data exfiltration
+5. Correlated artifacts to reconstruct an intrusion timeline
 
----
+## Findings
+- Persistence mechanisms confirmed via startup artifacts
+- Scheduled tasks used to maintain access
+- Logs showed malicious access patterns
+- Evidence supported outbound data exfiltration
 
-## ⚙️ Key Objectives
-1. Examine system and IIS logs to identify malicious activity.  
-2. Analyze autorun and startup entries to detect persistence.  
-3. Uncover indicators of compromise (IOCs) and exfiltration evidence.  
-4. Recommend next steps for remediation and prevention.  
+## Outcome
+- Intrusion timeline reconstructed
+- Confirmed compromise with persistence and exfiltration
+- Recommended remediation and monitoring improvements
 
----
+## Evidence
+- Screenshots and artifacts stored in `/images`
+- Full investigation available as PDF
 
-## 📄 Project Slides / Report
-📘 [View or Download Presentation (PDF)](Digital-Forensics-Project3-Forensic-Analysis-of-an-Intrusion.pdf)
+## Project Files
+- `Digital-Forensics-Project3-Forensic-Analysis-of-an-Intrusion.pdf`
+- `/images`
 
----
+## Skills Demonstrated
+- Digital forensics analysis
+- Log correlation and timeline reconstruction
+- Windows artifact investigation
+- Incident response fundamentals
+- Evidence-based reporting
 
-## 🖼️ Screenshot Highlights (Placeholders)
-
-| Screenshot | Description |
-|-------------|-------------|
-| ![IIS Logs](images/iis-logs.png) | IIS server logs showing attacker activity and connection attempts |
-| ![Startup Folder](images/startup-folder.png) | Evidence of persistence mechanisms found in Windows startup folder |
-| ![Scheduled Task](images/scheduled-task.png) | Suspicious scheduled task created by attacker |
-| ![Exfiltration Evidence](images/exfiltration.png) | Example of data exfiltration or outbound transfer evidence |
-
-> 💡 Tip: Upload screenshots from your PowerPoint to an `images/` folder and replace the placeholders above.
-
----
-
-## 🧑‍💻 Skills Demonstrated
-- Log Analysis & Event Correlation  
-- Windows Artifact Forensics  
-- Intrusion Timeline Reconstruction  
-- Data Exfiltration Investigation  
-- Incident Response & System Hardening  
-
----
-
-## 🛡️ References
-- Rickard, H., & Farr, T. (2022). *5 Crucial Steps to Take After Your Email Has Been Compromised.* [GoPTG Blog](https://blog.goptg.com/5-steps-after-email-is-compromised)  
-- Smet, A. D., Gagnon, C., & Mygatt, E. (2022). *Organizing for the Future: Nine Keys to Becoming a Future-Ready Company.* [McKinsey & Company](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/organizing-for-the-future-nine-keys-to-becoming-a-future-ready-company)  
-
----
-
-**© 2025 Niknaz Sadehvandi | University of Maryland Global Campus**
-
+## Author
+**Niknaz Sadehvandi**  
+**Cybersecurity Analyst**
