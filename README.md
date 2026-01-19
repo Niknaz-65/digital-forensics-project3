@@ -1,13 +1,13 @@
 # Forensic Analysis of an Intrusion
 
-![Project 3 Cover](digital-forensics-project3-cover.png)
+![Project Cover](digital-forensics-project3-cover.png)
 
 ## Overview
-Forensic investigation of a simulated system intrusion focused on log analysis, persistence mechanisms, and data exfiltration evidence.  
+Forensic investigation of a simulated system intrusion focused on log analysis, persistence mechanisms, and evidence of data exfiltration.  
 The project reconstructs attacker activity and produces analyst-ready findings aligned with DFIR workflows.
 
 ## Why This Project Matters to SOC Teams
-- Demonstrates post-incident investigation skills
+- Demonstrates post-incident investigation and evidence handling
 - Identifies persistence and exfiltration artifacts
 - Supports escalation, containment, and remediation decisions
 
@@ -25,8 +25,8 @@ The project reconstructs attacker activity and produces analyst-ready findings a
 - Indicators of Compromise (IOCs)
 
 ## Analysis Steps
-1. Reviewed IIS logs to identify suspicious access
-2. Inspected startup and autorun locations for persistence
+1. Reviewed IIS logs to identify suspicious access patterns
+2. Inspected startup and autorun locations for persistence mechanisms
 3. Analyzed scheduled tasks for unauthorized execution
 4. Identified evidence of outbound data exfiltration
 5. Correlated artifacts to reconstruct an intrusion timeline
@@ -34,20 +34,20 @@ The project reconstructs attacker activity and produces analyst-ready findings a
 ## Findings
 - Persistence mechanisms confirmed via startup artifacts
 - Scheduled tasks used to maintain access
-- Logs showed malicious access patterns
-- Evidence supported outbound data exfiltration
+- Logs revealed malicious access patterns
+- Evidence supported outbound data exfiltration activity
 
 ## Outcome
-- Intrusion timeline reconstructed
-- Confirmed compromise with persistence and exfiltration
+- Intrusion timeline successfully reconstructed
+- Confirmed compromise involving persistence and exfiltration
 - Recommended remediation and monitoring improvements
 
 ## Evidence
-- Screenshots and artifacts stored in `/images`
-- Full investigation available as PDF
+- Investigation screenshots and artifacts stored in `/images`
+- Full forensic analysis documented in PDF
 
 ## Project Files
-- `Digital-Forensics-Project3-Forensic-Analysis-of-an-Intrusion.pdf`
+- `Digital_Forensics_Project3_Forensic_Analysis_of_an_Intrusion.pdf`
 - `/images`
 
 ## Skills Demonstrated
